@@ -1,0 +1,33 @@
+{
+    "latest": "1.1.0",
+    "download": "https://portal.cfx.re/assets/granted-assets",
+    "changelogs": {
+      "1.1.0": {
+        "Added": [
+          "Starter items on new character create (`config/starter.lua`)",
+          "Pack is given once per new character through xsular_bridge (QBCore / Qbox)",
+          "Works with ox, qb, qs, ps, codem, jpr, one, origen, tgiann, and core inventories",
+          "`id_card` / `driver_license` metadata: name, DOB, gender, nationality",
+          "`GiveStarterItem` hook for um-idcard / qbx_idcard / bl_idcard",
+          "GitHub version checker banner (`Config.VersionCheck`), same flow as xsular_bridge"
+        ],
+        "Updated": [
+          "Create flow waits for inventory to load after login before granting the pack"
+        ]
+      },
+      "1.0.0": {
+        "Added": [
+          "Create, preview, select, and delete characters (QBCore + Qbox via xsular_bridge)",
+          "Slot allowance per Rockstar license (`Config.MaxSlots`, `/addcharslot`, `/setcharslot`, `/charslotsmenu`)",
+          "Welcome page (`Config.Welcome`) after first-character arrival and for new licenses",
+          "Spawn selector (`Config.Locations`) and first spawn (`Config.StartLocation`)",
+          "First-character clothing timer + appearance editor (`config/clothing.lua`)",
+          "Arrival cinematic (`MP_INTRO_CONCAT`, `config/cutscene.lua`, hold SPACE to skip)",
+          "`/logout` with Qbox client-side shadow of qbx_core's admin `/logout`",
+          "Custom NUI selector (theme, music, top-bar store/discord/settings)",
+          "Locales: en es fr de it pt nl pl tr ru uk zh ja ko ar hi bn th vi id ms",
+          "Auto-install `xsular_multichar_slots` (`Config.AutoInstallSQL`)"
+        ]
+      }
+    }
+  }
