@@ -1,7 +1,18 @@
 {
-    "latest": "2.4.0",
+    "latest": "2.5.0",
     "download": "https://portal.cfx.re/assets/granted-assets",
     "changelogs": {
+      "2.5.0": {
+        "Added": [
+          "First-class tgiann-clothing Appearance provider (Get / Set / Save / Customize / CreateFirst / OpenOutfitMenu / Reload)",
+          "Appearance.Load / LoadMany / Wipe for tgiann via GetSkinByIdentifier then tgiann_skin",
+          "Config.Appearance = 'tgiann' or 'tgiann-clothing' (also picked on auto)"
+        ],
+        "Updated": [
+          "Appearance auto-detect order: illenium → fivem → tgiann → qb → rcore",
+          "Docs and config list tgiann-clothing as a built-in Appearance backend"
+        ]
+      },
       "2.4.0": {
         "Added": [
           "Appearance.Load / LoadMany / Wipe — stored ped model + skin from Config.Appearance",
