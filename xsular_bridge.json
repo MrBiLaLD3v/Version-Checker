@@ -3,9 +3,15 @@
   "download": "https://portal.cfx.re/assets/granted-assets",
   "changelogs": {
     "2.6.0": {
+      "Added": [
+        "First-class tgiann-clothing Appearance provider (Get / Set / Save / Customize / CreateFirst / OpenOutfitMenu / Reload)",
+        "Appearance.Load / LoadMany / Wipe for tgiann via GetSkinByIdentifier then tgiann_skin",
+        "Config.Appearance = 'tgiann' or 'tgiann-clothing' (also picked on auto)",
+        "QB progress uses QBCore.Functions.Progressbar, with progressbar / qb-progressbar fallback"
+      ],
       "Updated": [
-        "QB progress provider now calls QBCore.Functions.Progressbar via GetCoreObject",
-        "QB progress falls back to progressbar / qb-progressbar if QBCore errors"
+        "Appearance auto-detect order: illenium → fivem → tgiann → qb → rcore",
+        "Docs and config list tgiann-clothing as a built-in Appearance backend"
       ],
       "Fixed": [
         "QB progress no longer fails instantly from a filtered GetCoreObject or a missing progressbar resource name"
@@ -13,17 +19,6 @@
       "Removed": [
         "All debug test chat commands (/xsui, /xstest, /xsprogress, /xsqbprogress, /xskeepprogress, /xslationprogress and aliases)",
         "Config.Test tunables used only by those commands"
-      ]
-    },
-    "2.5.0": {
-      "Added": [
-        "First-class tgiann-clothing Appearance provider (Get / Set / Save / Customize / CreateFirst / OpenOutfitMenu / Reload)",
-        "Appearance.Load / LoadMany / Wipe for tgiann via GetSkinByIdentifier then tgiann_skin",
-        "Config.Appearance = 'tgiann' or 'tgiann-clothing' (also picked on auto)"
-      ],
-      "Updated": [
-        "Appearance auto-detect order: illenium → fivem → tgiann → qb → rcore",
-        "Docs and config list tgiann-clothing as a built-in Appearance backend"
       ]
     },
     "2.4.0": {
