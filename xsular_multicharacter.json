@@ -1,8 +1,8 @@
 {
-    "latest": "1.1.1",
+    "latest": "1.3.0",
     "download": "https://portal.cfx.re/assets/granted-assets",
     "changelogs": {
-      "1.1.1": {
+      "1.3.0": {
         "Fixed": [
           "Preview cinematic hides the real ped and shows only the preview ped",
           "Your ped stays invisible for the whole selector shot and is visible again when you leave"
