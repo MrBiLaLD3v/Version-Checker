@@ -1,7 +1,30 @@
 {
-  "latest": "2.6.0",
+  "latest": "3.0.0",
   "download": "https://portal.cfx.re/assets/granted-assets",
   "changelogs": {
+    "3.0.0": {
+      "Added": [
+        "Inventory.Close and Inventory.SetWeaponWheel, plus flat exports CloseInventory and SetWeaponWheel",
+        "Stash create, open, and add on ox, qb, ps, qs, and codem",
+        "/bridgeinv checks the detected inventory when Config.Debug is true, or with ace command.bridgeinv",
+        "Shop checkout checks the player's job or gang, distance, and the price stored on the server",
+        "Client dispatch alerts keep the preset jobs and clamp blip fields on the server"
+      ],
+      "Updated": [
+        "Inventory auto-detect follows a resource that is still starting, instead of locking standalone for the rest of boot",
+        "lb-phone one-way numbers share one delete handler",
+        "Server logs print a colored [xsular_bridge] line"
+      ],
+      "Fixed": [
+        "Door, phone, shop, and callback events from a client are checked against that player",
+        "Callback replies from a different player are dropped",
+        "Callback floods and argument lists over 16 are rejected",
+        "Non-finite item counts and shop prices are rejected"
+      ],
+      "Removed": [
+        "core_inventory and jpr-inventory providers"
+      ]
+    },
     "2.6.0": {
       "Added": [
         "First-class tgiann-clothing Appearance provider (Get / Set / Save / Customize / CreateFirst / OpenOutfitMenu / Reload)",
@@ -24,7 +47,7 @@
     "2.4.0": {
       "Added": [
         "Appearance.Load / LoadMany / Wipe — stored ped model + skin from Config.Appearance",
-        "illenium / fivem / qb read playerskins (model + skin) then ESX users.skin",
+        "illenium / fivem / qb read playerskins (model + skin)",
         "rcore_clothing uses getSkinByIdentifier"
       ],
       "Updated": [
