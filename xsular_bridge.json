@@ -4,63 +4,18 @@
   "changelogs": {
     "3.0.0": {
       "Added": [
-        "Inventory.Close and Inventory.SetWeaponWheel, plus flat exports CloseInventory and SetWeaponWheel",
-        "Stash create, open, and add on ox, qb, ps, qs, and codem",
-        "Client dispatch alerts keep the preset jobs and clamp blip fields on the server"
+        "Completed support for every inventory the Bridge ships"
       ],
       "Updated": [
-        "Inventory auto-detect follows a resource that is still starting, instead of locking standalone for the rest of boot",
-        "Server logs print a colored [xsular_bridge] line",
-        "Config.Debug ships false"
+        "Stability and reliability across the Bridge",
+        "Performance and lower resource usage",
+        "Compatibility between frameworks, inventories, and the rest of the Bridge",
+        "Internal systems cleaned up",
+        "Config file edited"
       ],
       "Fixed": [
-        "Callback replies from a different player are dropped",
-        "Callback floods and argument lists over 16 are rejected",
-        "Non-finite item counts are rejected"
-      ],
-      "Removed": [
-        "core_inventory and jpr-inventory providers",
-        "/bridgeinv inventory check and the startup smoke test",
-        "Zone, Doorlock, Housing, Phone, Shops, Weather, and Dialogue"
-      ]
-    },
-    "2.6.0": {
-      "Added": [
-        "First-class tgiann-clothing Appearance provider (Get / Set / Save / Customize / CreateFirst / OpenOutfitMenu / Reload)",
-        "Appearance.Load / LoadMany / Wipe for tgiann via GetSkinByIdentifier then tgiann_skin",
-        "Config.Appearance = 'tgiann' or 'tgiann-clothing' (also picked on auto)",
-        "QB progress uses QBCore.Functions.Progressbar, with progressbar / qb-progressbar fallback"
-      ],
-      "Updated": [
-        "Appearance auto-detect order: illenium → fivem → tgiann → qb → rcore",
-        "Docs and config list tgiann-clothing as a built-in Appearance backend"
-      ],
-      "Fixed": [
-        "QB progress no longer fails instantly from a filtered GetCoreObject or a missing progressbar resource name"
-      ],
-      "Removed": [
-        "All debug test chat commands (/xsui, /xstest, /xsprogress, /xsqbprogress, /xskeepprogress, /xslationprogress and aliases)",
-        "Config.Test tunables used only by those commands"
-      ]
-    },
-    "2.4.0": {
-      "Added": [
-        "Appearance.Load / LoadMany / Wipe — stored ped model + skin from Config.Appearance",
-        "illenium / fivem / qb read playerskins (model + skin)",
-        "rcore_clothing uses getSkinByIdentifier"
-      ],
-      "Updated": [
-        "Preview apply uses the active clothing resource (setPedAppearance / loadPlayerClothing / setPedSkin)"
-      ]
-    },
-    "2.3.0": {
-      "Updated": [
-        "xsular_bridge 2.2.0 — same public API (`@xsular_bridge/init.lua`, flat exports, category tables)",
-        "Central version catalog: one GitHub fetch reports every started XSular resource"
-      ],
-      "Fixed": [
-        "Version checker banner no longer reports a newer 2.5.0 than the shipped resource",
-        "Changelog on OUTDATED now shows only this release (update + stability fixes)"
+        "A large number of existing issues and bugs",
+        "Edge cases found during testing"
       ]
     }
   }
