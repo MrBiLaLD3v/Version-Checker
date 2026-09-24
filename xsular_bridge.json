@@ -6,25 +6,22 @@
       "Added": [
         "Inventory.Close and Inventory.SetWeaponWheel, plus flat exports CloseInventory and SetWeaponWheel",
         "Stash create, open, and add on ox, qb, ps, qs, and codem",
-        "Shop checkout checks the player's job or gang, distance, and the price stored on the server",
         "Client dispatch alerts keep the preset jobs and clamp blip fields on the server"
       ],
       "Updated": [
         "Inventory auto-detect follows a resource that is still starting, instead of locking standalone for the rest of boot",
-        "lb-phone one-way numbers share one delete handler",
         "Server logs print a colored [xsular_bridge] line",
-        "Config.Debug ships false",
-        "Zone, Doorlock, Housing, Phone, Shops, Weather, and Dialogue are omitted from the shipped config and still auto-detect"
+        "Config.Debug ships false"
       ],
       "Fixed": [
-        "Door, phone, shop, and callback events from a client are checked against that player",
         "Callback replies from a different player are dropped",
         "Callback floods and argument lists over 16 are rejected",
-        "Non-finite item counts and shop prices are rejected"
+        "Non-finite item counts are rejected"
       ],
       "Removed": [
         "core_inventory and jpr-inventory providers",
-        "/bridgeinv inventory check and the startup smoke test"
+        "/bridgeinv inventory check and the startup smoke test",
+        "Zone, Doorlock, Housing, Phone, Shops, Weather, and Dialogue"
       ]
     },
     "2.6.0": {
