@@ -2,7 +2,7 @@
   "latest": "3.1.0",
   "download": "https://portal.cfx.re/assets/granted-assets",
   "changelogs": {
-    "3.0.0": {
+    "3.1.0": {
       "Added": [
         "Completed support for every inventory the Bridge ships"
       ],
