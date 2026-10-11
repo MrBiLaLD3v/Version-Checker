@@ -4,8 +4,18 @@
   "changelogs": {
     "2.0.0": {
       "Added": [
-        "Home pause menu with 3D map, left-rail links, and xsular_bridge inventory",
+        "Home pause menu in the xsular_mMultiCharacter design (Esc, P, pad Start)",
+        "3D map camera with blips, street view, tour, route preview, and double-click GPS",
+        "Left rail (Home, Map, Inventory, Character, Disconnect) with Export / client / server runners",
+        "Right-side social tiles with Color and Gradient",
+        "Inventory open through xsular_bridge after the menu closes",
+        "Extras: click sound, grain, scanlines, vignette, and scale",
+        "SetHudVisible hook matching xsular_mMultiCharacter",
         "GitHub version check (`Config.VersionCheck`)"
+      ],
+      "Updated": [
+        "Map draws every blip (no numbered clusters)",
+        "GPS waypoint needs a second click on the same place to confirm"
       ]
     }
   }

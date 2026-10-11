@@ -4,8 +4,16 @@
   "changelogs": {
     "1.1.0": {
       "Added": [
-        "XSular loading screen with shutter handoff to xsular_mMultiCharacter",
+        "Wordmark, top-bar links, rotating tips, and a settings panel (music, volume, information pages)",
+        "Background video, YouTube, or image slideshow",
+        "File and YouTube music with fade-out on the closing shutters",
+        "Shutter handoff to xsular_mMultiCharacter (`Config.OutroMs`)",
         "GitHub version check (`Config.VersionCheck`)"
+      ],
+      "Updated": [
+        "Load progress is monotonic so the bar never jumps backwards",
+        "Wordmark is not draggable; empty LogoText shows the server name",
+        "Shared accent hex with xsular_mMultiCharacter (no color-mix)"
       ]
     }
   }
