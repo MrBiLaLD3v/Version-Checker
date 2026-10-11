@@ -1,0 +1,12 @@
+{
+  "latest": "1.1.0",
+  "download": "https://portal.cfx.re/assets/granted-assets",
+  "changelogs": {
+    "1.1.0": {
+      "Added": [
+        "XSular loading screen with shutter handoff to xsular_mMultiCharacter",
+        "GitHub version check (`Config.VersionCheck`)"
+      ]
+    }
+  }
+}

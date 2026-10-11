@@ -1,0 +1,12 @@
+{
+  "latest": "2.0.0",
+  "download": "https://portal.cfx.re/assets/granted-assets",
+  "changelogs": {
+    "2.0.0": {
+      "Added": [
+        "Home pause menu with 3D map, left-rail links, and xsular_bridge inventory",
+        "GitHub version check (`Config.VersionCheck`)"
+      ]
+    }
+  }
+}

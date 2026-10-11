@@ -8,12 +8,18 @@ Each resource fetches its JSON on start (`Config.VersionCheck`). The checker nev
 |---|---|
 | [`xsular_bridge.json`](xsular_bridge.json) | `xsular_bridge` |
 | [`xsular_multicharacter.json`](xsular_multicharacter.json) | `xsular_mMultiCharacter` |
+| [`xsular_mgarages.json`](xsular_mgarages.json) | `xsular_mGarages` |
+| [`xsular_mloadingscreen.json`](xsular_mloadingscreen.json) | `xsular_mLoadingScreen` |
+| [`xsular_mpausemenu.json`](xsular_mpausemenu.json) | `xsular_mPauseMenu` |
 
 Raw URLs:
 
 ```
 https://raw.githubusercontent.com/MrBiLaLD3v/Version-Checker/refs/heads/main/xsular_bridge.json
 https://raw.githubusercontent.com/MrBiLaLD3v/Version-Checker/refs/heads/main/xsular_multicharacter.json
+https://raw.githubusercontent.com/MrBiLaLD3v/Version-Checker/refs/heads/main/xsular_mgarages.json
+https://raw.githubusercontent.com/MrBiLaLD3v/Version-Checker/refs/heads/main/xsular_mloadingscreen.json
+https://raw.githubusercontent.com/MrBiLaLD3v/Version-Checker/refs/heads/main/xsular_mpausemenu.json
 ```
 
 ## JSON shape
