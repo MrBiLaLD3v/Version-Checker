@@ -2,24 +2,23 @@
 
 Central `latest` + `changelogs` catalogs for XSular FiveM resources.
 
-Each resource fetches its JSON on start (`Config.VersionCheck`). The checker never writes files and never auto-updates.
+`xsular_bridge` fetches these files. It never writes files and never auto-updates.
 
-| File | Resource |
-|---|---|
-| [`xsular_bridge.json`](xsular_bridge.json) | `xsular_bridge` |
-| [`xsular_multicharacter.json`](xsular_multicharacter.json) | `xsular_mMultiCharacter` |
-| [`xsular_mgarages.json`](xsular_mgarages.json) | `xsular_mGarages` |
-| [`xsular_mloadingscreen.json`](xsular_mloadingscreen.json) | `xsular_mLoadingScreen` |
-| [`xsular_mpausemenu.json`](xsular_mpausemenu.json) | `xsular_mPauseMenu` |
+| File | Resource | `latest` |
+|---|---|---|
+| [`xsular_bridge.json`](xsular_bridge.json) | `xsular_bridge` | `3.1.0` |
+| [`xsular_mBanking.json`](xsular_mBanking.json) | `xsular_mBanking` | `1.1.0` |
+| [`xsular_mClothing.json`](xsular_mClothing.json) | `xsular_mClothing` | `1.0.0` |
+| [`xsular_mGarages.json`](xsular_mGarages.json) | `xsular_mGarages` | `1.1.0` |
+| [`xsular_mLoadingScreen.json`](xsular_mLoadingScreen.json) | `xsular_mLoadingScreen` | `1.1.0` |
+| [`xsular_mMultiCharacter.json`](xsular_mMultiCharacter.json) | `xsular_mMultiCharacter` | `2.0.0` |
+| [`xsular_mPauseMenu.json`](xsular_mPauseMenu.json) | `xsular_mPauseMenu` | `2.0.0` |
+| [`xsular_multicharacter.json`](xsular_multicharacter.json) | previous multicharacter filename | `2.0.0` |
 
-Raw URLs:
+Raw URL shape:
 
 ```
-https://raw.githubusercontent.com/MrBiLaLD3v/Version-Checker/refs/heads/main/xsular_bridge.json
-https://raw.githubusercontent.com/MrBiLaLD3v/Version-Checker/refs/heads/main/xsular_multicharacter.json
-https://raw.githubusercontent.com/MrBiLaLD3v/Version-Checker/refs/heads/main/xsular_mgarages.json
-https://raw.githubusercontent.com/MrBiLaLD3v/Version-Checker/refs/heads/main/xsular_mloadingscreen.json
-https://raw.githubusercontent.com/MrBiLaLD3v/Version-Checker/refs/heads/main/xsular_mpausemenu.json
+https://raw.githubusercontent.com/MrBiLaLD3v/Version-Checker/refs/heads/main/<file>
 ```
 
 ## JSON shape
