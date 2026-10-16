@@ -10,8 +10,7 @@
         "Right-side social tiles with Color and Gradient",
         "Inventory open through xsular_bridge after the menu closes",
         "Extras: click sound, grain, scanlines, vignette, and scale",
-        "SetHudVisible hook matching xsular_mMultiCharacter",
-        "GitHub version check (`Config.VersionCheck`)"
+        "SetHudVisible hook matching xsular_mMultiCharacter"
       ],
       "Updated": [
         "Map draws every blip (no numbered clusters)",

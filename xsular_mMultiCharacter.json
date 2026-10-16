@@ -1,0 +1,116 @@
+{
+    "latest": "2.0.0",
+    "download": "https://portal.cfx.re/assets/granted-assets",
+    "changelogs": {
+      "2.0.0": {
+        "Added": [
+          "Create click covers in 200–400ms while the server creates the character in parallel",
+          "Clothing confirm force-releases the cursor and starts the arrival cutscene (including qb-clothing / rcore when they never call the save callback)"
+        ],
+        "Updated": [
+          "Owner config is grouped: Config.Character, Config.Spawn, Config.UI (logo + welcome), Config.MusicURL.SwitchSound",
+          "NUI iris is the only visible fade; native DoScreenFade is a 0ms snap under black",
+          "Create no longer waits 10s for PlayerLoaded after login already finished on the server"
+        ],
+        "Removed": [
+          "In-game notify toasts and the NUI toast host",
+          "Config.Debug, Discord webhook traces, and owner-facing fade / intro / spawn-camera timing tables"
+        ],
+        "Fixed": [
+          "Black screen after Create while waiting for a PlayerLoaded event that never fired",
+          "Mouse stuck on screen after saving first-character clothing",
+          "Arrival cutscene not starting after clothing confirm"
+        ]
+      },
+      "1.9.0": {
+        "Updated": [
+          "Multicharacter pages share one control system: Field, Button, Segmented, Stepper, Panel, and a balanced spacing scale"
+        ]
+      },
+      "1.8.1": {
+        "Updated": [
+          "Play spawn outro holds a full black screen with the logo, then the iris opens into the world"
+        ]
+      },
+      "1.8.0": {
+        "Added": [
+          "Play handoff interpolates the selector camera to a spawn look, fades the real ped in, then blends into the gameplay camera"
+        ],
+        "Updated": [
+          "Play no longer snaps to black or closes an iris over the world",
+          "Preloaded spawn coords are still used; no second DB or appearance load"
+        ]
+      },
+      "1.7.2": {
+        "Updated": [
+          "Join and Play use a center iris: a black disc grows from the logo and collapses back into it",
+          "Selector chrome fades and scales toward the center on Play instead of sliding off the letterbox edges"
+        ]
+      },
+      "1.7.1": {
+        "Added": [
+          "Cinematic letterbox intro and Play outro: film bars, accent seam, and logo hold on spawn"
+        ],
+        "Updated": [
+          "Join logo uses a simple fade-in instead of a looping figure-8",
+          "Selector chrome fades out on Play; letterbox stays mounted so the world reveal opens with the bars",
+          "Config.Intro timings are owner-facing (defaults unchanged)"
+        ]
+      },
+      "1.7.0": {
+        "Added": [
+          "Full character preload when the selector opens: identity, job, accounts, position, appearance, and related users/players columns in one batched load",
+          "Server-authoritative character cache used by Play so spawn does not list, repair, or reload appearance again"
+        ],
+        "Updated": [
+          "Play validates the cached character then runs ESX Login and spawns at the preloaded position",
+          "Client warms the ped model and collision during selector interaction instead of waiting after Play"
+        ]
+      },
+      "1.6.0": {
+        "Fixed": [
+          "Real player ped is skinned while still hidden, then teleported, then revealed",
+          "Routing bucket stays isolated until spawn (or new-character welcome) finishes",
+          "Character login can no longer run twice at once or close the selector before the ped is ready",
+          "Clothing timer Skip works after the selector closes",
+          "Spawn picker NUI callback answers immediately"
+        ],
+        "Updated": [
+          "Character flow is an explicit state machine (selector → load → appearance → spawn → ready)",
+          "Logout, disconnect, and resource stop clear preview peds, cameras, NUI focus, and routing buckets"
+        ]
+      },
+      "1.5.0": {
+        "Added": [
+          "Four layouts: Classic, Mirror (panel on the right), Cards (bottom character carousel) and Showcase (centred title, facts strip)",
+          "Six block shapes: Flat, Slant, Chamfer, Notch, Pill and Hex",
+          "Name effects (Stagger, Glitch, Typewriter, Blur) and switch effects (Slide, Fade, Blur, Glitch)",
+          "Ambient effects: particles (Embers, Dust, Snow, Bokeh), film grain, scanlines, aurora glow and vignette",
+          "Pose picker: preview Config.Poses on the selected character",
+          "Settings > Style lets players change the look; server defaults in Config.UI.Style (AllowPlayerStyle to lock it)"
+        ],
+        "Updated": [
+          "Camera frames the ped to match the chosen layout",
+          "Cash and bank count up, blocks and the Play button get a light sheen, motion level Full / Reduced / Off"
+        ]
+      },
+      "1.4.0": {
+        "Added": [
+          "ESX Legacy characters: create, select, delete, and last position through xsular_bridge",
+          "esx_skin / skinchanger appearance when illenium-appearance is not running"
+        ],
+        "Updated": [
+          "QBCore and Qbox login, logout, and delete go through xsular_bridge instead of calling the framework directly"
+        ]
+      },
+      "1.3.0": {
+        "Fixed": [
+          "Preview cinematic hides the real ped and shows only the preview ped",
+          "Your ped stays invisible for the whole selector shot and is visible again when you leave"
+        ],
+        "Updated": [
+          "Version check prints one line: up to date, or update available (`Config.VersionCheck`)"
+        ]
+      }
+    }
+  }

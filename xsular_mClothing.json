@@ -1,0 +1,12 @@
+{
+  "latest": "1.0.0",
+  "download": "https://portal.cfx.re/assets/granted-assets",
+  "changelogs": {
+    "1.0.0": {
+      "Added": [
+        "Initial XSular Clothing release with appearance editor, outfits, share codes, and in-game shop creator",
+        "Full xsular_bridge integration for framework, target, menu, input, textui, permissions, database, and callbacks"
+      ]
+    }
+  }
+}

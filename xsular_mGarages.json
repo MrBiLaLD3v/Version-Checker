@@ -7,8 +7,7 @@
         "Cinematic garage for QBCore and Qbox through xsular_bridge",
         "Target, TextUI, or 3D marker on the ped or machine",
         "Impound, recovery, fake plates, and vehicle sale contracts",
-        "Admin creator, job fleet, and showrooms",
-        "GitHub version check (`Config.VersionCheck`)"
+        "Admin creator, job fleet, and showrooms"
       ]
     }
   }
